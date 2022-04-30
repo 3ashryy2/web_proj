@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 100%;
+  background: linear-gradient(
+      to top,
+      rgba(17, 21, 27, 0.83) 82%,
+      rgba(6, 13, 10, 0.97) 88%
+    ),
+    url(1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.navigation_bar {
+  background: linear-gradient( to right,
+   rgba(0, 58, 58, 1.83) 11%, 
+   rgba(17, 21, 27, 1.83) 58% );
+  width: 100%;
+  height: 83px;
+  
+}
+.icon {
+  left: 30px;
+  width: 235px;
+  height: 70px;
+  float: left;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.logo_text {
+  color: rgb(255, 136, 0);
+  font-size: 35px;
+  font-family: monospace;
+  float: center;
+  
+}
+.logo_icon{
+  color: rgb(255, 136, 0);
+  font-size: 35px;
+  font-family: monospace;
+  float: center;
+
+}
+
+
+.menu {
+  width: 830px;
+  height: 46px;
+  padding: 10px;
+  margin:auto;
+}
+
+ul {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul li {
+  list-style: none;
+  margin-left: 50px;
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+
+ul li a {
+  text-decoration: none;
+  color: rgb(246, 250, 253);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+
+
+ul li a:hover {
+  color: rgb(255, 136, 0);
+}
+
+ul li a:active{
+  color: rgb(255, 136, 0);
+}

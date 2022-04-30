@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vication_request</title>
+    <link rel="stylesheet" href="vication_r.css"/>
+   <link rel="stylesheet" href="nav_bar.css" />
+  </head>
+  <body>
+
+    <div class="navigation_bar">
+        
+      <div class="icon">
+        <span class="logo_icon"><ion-icon name="people-outline"></ion-icon></span>
+        <span class="logo_text">HR_Sys.</span>
+      </div>
+  
+      <div class="menu">
+        <ul >
+          
+          <li><a href="/Index.HTML">
+            <span class="menu_icon"><ion-icon name="home-outline"></ion-icon></span>
+            <span class="menu_text">Home</span>
+          </a></li>
+          
+          <li><a href="/pages/add.html">
+            <span class="menu_icon"><ion-icon name="person-add-outline"></ion-icon></span>
+            <span class="menu_text">Add Employee</span>
+          </a>  
+          </li>
+          
+            <li><a href="/pages/edit.html">
+              <span class="menu_icon"><ion-icon name="create-outline"></ion-icon></span>
+            <span class="menu_text">Edit info</span></a>
+          </li>
+          
+            <li><a href="pages/search.html">
+              <span class="menu_icon"><ion-icon name="search-outline"></ion-icon></span>
+            <span class="menu_text">Search</span></a>
+            </li>
+          
+            <li><a href="pages/vication_request.html"> 
+              <span class="menu_icon"><ion-icon name="calendar-outline"></ion-icon></span>
+            <span class="menu_text">Vacation request</span>
+          </a>  
+          </li>
+        
+          <li><a href="pages/review.html">
+            <span class="menu_icon"><ion-icon name="receipt-outline"></ion-icon></span>
+            <span class="menu_text">Review requests</span>
+          </a>
+          </li>
+        
+        </ul>
+      </div>
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </div>
+
+    <div class="vication_form">
+      <form>
+        <div class="employee">
+            <label for="E_name">E_name</label>
+            <input type="text" id="E_name" />
+            <label for="EID">ID</label>
+            <input type="text" id="EID" />
+    
+        </div>
+
+        <div class="vication_date">        
+            <label for="FromDate">From</label>
+            <input type="date" id="FromDate" placeholder="dd/mm/yyyy" />
+            <label for="ToDate">To</label>
+            <input type="date" id="ToDate" placeholder="dd/mm/yyyy" />
+        
+        </div>
+
+        <div class="vication_reason">
+          
+            <label for="vic_Reason">Reason</label>
+            <br />
+            <!--<input
+              type="text"
+              id="vic_Reason"
+              placeholder="mother-in-law gives birth"
+            />
+            -->
+            <textarea 
+            id="vic_Reason"
+            placeholder="mother-in-law gives birth" ></textarea>
+          
+        </div>
+
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>
