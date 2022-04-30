@@ -10,7 +10,7 @@
       rgba(17, 21, 27, 0.83) 82%,
       rgba(6, 13, 10, 0.97) 88%
     ),
-    url(1.jpg);
+    url(/1.jpg);
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -34,14 +34,14 @@
 
 .logo_text {
   color: rgb(255, 136, 0);
-  font-size: 35px;
-  font-family: monospace;
+  font-size: 30px;
+  font-family: ui-monospace;
   float: center;
   
 }
 .logo_icon{
   color: rgb(255, 136, 0);
-  font-size: 35px;
+  font-size: 37px;
   font-family: monospace;
   float: center;
 
@@ -83,5 +83,9 @@ ul li a:hover {
 }
 
 ul li a:active{
+  color: rgb(255, 136, 0);
+}
+
+.menu_icon{
   color: rgb(255, 136, 0);
 }

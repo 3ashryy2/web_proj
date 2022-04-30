@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>vication_request</title>
+    <link rel="stylesheet" href="search.css"/>
    <link rel="stylesheet" href="nav_bar.css" />
 </head>
 <style>
@@ -61,36 +62,36 @@
     </div>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-  </div>
 
-  <form >
+ </div>
+ 
+ <div class="search-bar">
     <input value="Micheal" placeholder="Search" aria-label="Search">
     <button type="submit" style="color: rgb(148, 87, 87); border-color: white;">Search</button>
-  </form>
-  <div>
-    <br>
-  </br>
-    <table>
-      <tr>
-        <th>
-          name     
-           </th>
-        <th>ID  </th>
-        <th>vacation status</th>
-
-      </tr>
-      <tr>
-        <th>
-          Micheal
-        </th>
-        <th>8523432</th>
-        <th>submitted
-
-        </th>
-      </tr>
-    </table> 
   </div>
-
+<div class="results-table-container">
+  <table class="employee-table">
+      <thead>
+        <th id="1"> Name </th> 
+        <th id="2" >ID </th>
+        <th id="3" >Email</th>
+        <th id="4">Phone no.</th> 
+        <th id="5">Vacation status</th>
+      </thead>
+      <tbody>
+       <tr>
+         <td data-lable="Name">name</td>
+         <td data-lable="ID" >20200XXX</td>
+         <td data-lable="Email">example@mail.com</td>
+         <td data-lable="phone no.">0123456789</td>
+         <td data-lable="vication_status">submmited</td>
+        </tr>
+        
+      
+      
+      </tbody>
+      
+    </table> </div>
 </body>
 </html>
 

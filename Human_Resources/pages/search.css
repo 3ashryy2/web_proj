@@ -1,0 +1,79 @@
+
+
+.employee-table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+
+}
+
+.employee-table thead {
+  color: orange;
+}
+
+@media screen and (max-width: 768px) {
+  .employee-table thead {
+    display: none;
+  }
+}
+
+.employee-table th,
+.employee-table td {
+  padding: 10px 20px;
+}
+
+.employee-table td {
+  color: #363535;
+}
+
+@media screen and (max-width: 768px) {
+  .employee-table td::before {
+    content: attr(data-label) ":";
+    display: inline-block;
+    width: 120px;
+    font-weight: bold;
+  }
+}
+
+.employee-table tr:nth-child(even) {
+  background: var(--light-gray);
+}
+
+@media screen and (max-width: 768px) {
+  .employee-table tbody tr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background: unset !important;
+    border-bottom: 1px solid rgb(23, 69, 83);
+    border-right:1px solid rgb(23, 69, 83) ;
+    padding: 10px 0;
+  }
+}
+
+.employee-table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .employee-table{
+    -webkit-box-pack: stretch;
+        -ms-flex-pack: stretch;
+            justify-content: stretch;
+    text-align: start;
+  }
+}
+
+.search-bar{
+    width: 50%;
+    margin: 100px 500px 40px;
+}
+.search-bar input{
+    width: 90%;
+    margin: auto;
+}
